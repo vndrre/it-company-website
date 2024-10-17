@@ -33,7 +33,7 @@
                 <a href="/" class="hover:font-medium duration-100">Contact</a>
             </li>
 
-            <a href="/" class="bg-[#FF3E54] hover:bg-[#f13a4f] duratio-100 text-white rounded-md p-3 font-semibold ml-2" >Get In Touch</a>
+            <a href="/" class="bg-[#FF3E54] hover:bg-[#f13a4f] duration-100 text-white rounded-md p-3 font-semibold ml-2" >Get In Touch</a>
         </ul>
     </div>
 </template>
