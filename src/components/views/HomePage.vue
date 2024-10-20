@@ -4,6 +4,8 @@
 import Expertice from '../Expertice.vue';
 import Testimonials from '../Testimonials.vue';
 import Footer from '../Footer.vue';
+import Leaders from '../Leaders.vue';
+import Contact from '../Contact.vue';
 </script>
 
 <template>
@@ -145,14 +147,11 @@ import Footer from '../Footer.vue';
 
     <section>
         <!-- Our Leaders section -->
+        <Leaders />
     </section>
 
     <section>
         <Testimonials />
-    </section>
-
-    <section>
-        <!-- Contact section -->
     </section>
 
     <section>
