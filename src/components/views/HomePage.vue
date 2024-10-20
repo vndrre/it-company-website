@@ -1,6 +1,9 @@
 <script setup>
-    import { Headset } from 'lucide-vue-next';
-import Planning from '../Planning.vue';
+    import { Headset, Lightbulb, Goal } from 'lucide-vue-next';
+    import Planning from '../Planning.vue';
+import Expertice from '../Expertice.vue';
+import Testimonials from '../Testimonials.vue';
+import Footer from '../Footer.vue';
 </script>
 
 <template>
@@ -27,7 +30,7 @@ import Planning from '../Planning.vue';
         <div class="grid place-items-center">
             <div class="flex items-center gap-10">
                 <div>
-                    <img src="/src/components/Mask group.png" alt="">
+                    <img src="/src/assets/Mask group.png" alt="">
                 </div>
 
                 <div class="grid gap-5">
@@ -73,7 +76,7 @@ import Planning from '../Planning.vue';
         <div class="grid place-items-center">
             <div class="flex items-center gap-10">
                 <div>
-                    <img src="/src/components/Mask group.png" alt="">
+                    <img src="/src/assets/Mask group2.png" alt="">
                 </div>
 
                 <div class="grid gap-5">
@@ -94,25 +97,73 @@ import Planning from '../Planning.vue';
                         </p>
                     </div>
 
-                    <div class="bg-white rounded-md p-2">
-                        <div class="flex items-center gap-5">
-                            <div class="bg-[#F7F7F7] rounded-md p-4">
-                                <Headset class="text-[#FF3E54]"/>
-                            </div>
+                    <div class="grid grid-cols-2 gap-5">
+                        <div class="bg-white rounded-md py-4 px-5">
+                            <div class="flex items-center gap-5">
+                                <div class="bg-[#FF3E54] bg-opacity-15 rounded-md p-4">
+                                    <Lightbulb class="text-[#FF3E54]"/>
+                                </div>
 
-                            <div class="grid grid-cols-1">
-                                <h1 class="text-[#0E1F51] text-[20px] font-bold">Get Instant Professional Advice</h1>
-                                <p class="text-[16px]">Ready to Help : <span class="text-[#FF3E54] font-bold">+1 356 678 7897</span> </p>
+                                <div class="grid grid-cols-1">
+                                    <h1 class="text-[#FF3E54] font-bold text-[16px]">Our Vision</h1>
+                                    <p class="text-[#0E1F51] text-[14px] font-medium">
+                                        It is a long esta <br>
+                                        -blished fact that
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-md py-4 px-5">
+                            <div class="flex items-center gap-5">
+                                <div class="bg-[#FF3E54] bg-opacity-15 rounded-md p-4">
+                                    <Goal class="text-[#FF3E54]"/>
+                                </div>
+
+                                <div class="grid grid-cols-1">
+                                    <h1 class="text-[#FF3E54] font-bold text-[16px]">Our Goal</h1>
+                                    <p class="text-[#0E1F51] text-[14px] font-medium">
+                                        It is a long esta <br>
+                                        -blished fact that
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex item-center gap-5">
-
+                    <div class="mt-3">
+                        <a href="/" class="bg-[#FF3E54] hover:bg-[#f13a4f] duration-100 text-white rounded-md py-3 px-6">View More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section>
+        <Expertice />
+    </section>
+
+    <section class="bg-[#F7F7F7] p-5">
+        <!-- Our Leaders section -->
+    </section>
+
+    <section>
+        <Testimonials />
+    </section>
+
+    <section>
+        <!-- Contact section -->
+    </section>
+
+    <section>
+        <!-- Blog section -->
+    </section>
+
+    <section>
+        <!-- Whatever tf get in touch section -->
+    </section>
+
+    <section>
+        <Footer />
+    </section>
 </template>
