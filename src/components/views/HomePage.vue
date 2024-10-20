@@ -5,7 +5,7 @@ import Expertice from '../Expertice.vue';
 import Testimonials from '../Testimonials.vue';
 import Footer from '../Footer.vue';
 import Leaders from '../Leaders.vue';
-import Contact from '../Contact.vue';
+import Blog from '../blog.vue';
 </script>
 
 <template>
@@ -156,6 +156,7 @@ import Contact from '../Contact.vue';
 
     <section>
         <!-- Blog section -->
+        <Blog />
     </section>
 
     <section>
