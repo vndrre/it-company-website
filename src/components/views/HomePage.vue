@@ -6,6 +6,7 @@ import Testimonials from '../Testimonials.vue';
 import Footer from '../Footer.vue';
 import Leaders from '../Leaders.vue';
 import Blog from '../blog.vue';
+import Sub from '../Sub.vue';
 </script>
 
 <template>
@@ -161,6 +162,7 @@ import Blog from '../blog.vue';
 
     <section>
         <!-- Get in touch section -->
+        <Sub />
     </section>
 
     <section>
