@@ -143,7 +143,7 @@ import Footer from '../Footer.vue';
         <Expertice />
     </section>
 
-    <section class="bg-[#F7F7F7] p-5">
+    <section>
         <!-- Our Leaders section -->
     </section>
 
@@ -160,7 +160,7 @@ import Footer from '../Footer.vue';
     </section>
 
     <section>
-        <!-- Whatever tf get in touch section -->
+        <!-- Get in touch section -->
     </section>
 
     <section>
